@@ -1,0 +1,41 @@
+body{
+    overflow-x:hidden;
+    background-color:rgba(0, 0,0, 0.95);
+}
+.navbar{
+    background:rgba(0,0,0,0.4);
+    
+    z-index: 4;
+}
+.nav-link{
+    font-size: 18px;
+
+}
+
+.car-img{
+    width:100%;
+}
+.carousel-control-prev,.carousel-control-next{
+    width: 8%;
+}
+
+.card{
+    background-color: #94cbff;
+}
+.parallax{
+    
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:500px;
+}
+.dropdown-menu a:hover{
+    color:lightblue;
+}
+
+@media only screen and (max-device-width:500px){
+    .parallax{
+        height:200px;
+    }
+}

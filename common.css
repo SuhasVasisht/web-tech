@@ -1,0 +1,86 @@
+body {
+    overflow-x: hidden;
+    background-color:#1a1a1a;
+  }
+  .back1{
+    background-color:#1a1a1a;
+  }
+  .text1{
+    color:white;
+  }
+  .text2{
+    color:aliceblue;
+  }
+  .nav-tabs a:hover{
+    color:white;
+
+  }
+  #heading{
+    color:rgb(211, 211, 211);
+  }
+  .btn-custom{
+    background-color:#1a1a1a;
+    color:aliceblue;
+  }
+  .car-img{
+    width:100%;
+  }
+  .checked{
+    color:gold;
+  }
+  .blockquote h4{
+    color:white;
+    text-decoration: underline;
+  }
+  .blockquote h3{
+    color:white;
+    text-decoration: underline;
+  }
+  html {
+   scroll-behavior: smooth;
+  }
+  .display-4{
+    display: inline-block;
+  }
+  .skippy{
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+  }
+  .skippy:hover{
+    color:rgb(63, 63, 63);
+  }    
+  .counts{
+    background-color:white;
+  }
+  .underline{
+      text-decoration:underline;
+  }
+  .same-line{
+      display:inline-block;
+  }
+  .money{
+    color:white;
+    display:inline-block;
+    font-family:"Ubuntu";
+  }
+  .ga1{
+    background:linear-gradient(black,rgb(20, 20, 20));
+  }
+  .ga2{
+    background:linear-gradient(rgb(20, 20, 20),black);
+  }
+  
+  .action{
+    background-image: linear-gradient(to right,rgb(0, 0, 0),rgb(15,15,15));
+  }
+  .text3{
+    color:white;
+    font-size:24px;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .grid-system {
+        display:none;
+    }
+  }
